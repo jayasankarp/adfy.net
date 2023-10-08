@@ -16,8 +16,7 @@ Adfy.net is a simple advertisement platform designed to showcase various softwar
 
 ## Introduction
 
-Adfy.net is a practical demonstration of how to build a modern web application with a focus on architectural patterns and best practices. Whether you are a beginner looking to learn more about software architecture or an experienced developer aiming to sharpen your skills, this project has something to offer. It's built with .NET 8, making use of the latest features and improvements available in the framework.
-
+Adfy.net is a practical demonstration of how to build a modern web application with a focus on architectural patterns and best practices. 
 ## Features
 
 - **Clean Architecture:** Adfy.net is structured using the Clean Architecture pattern, which promotes separation of concerns, maintainability, and testability.
