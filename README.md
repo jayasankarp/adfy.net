@@ -94,6 +94,7 @@ Adfy.net is built using the following technologies and libraries:
 - FluentValidation
 - Serilog (for logging)
 - Identity API (new in .NET 8)
+- SQLite
 
 ## License
 
