@@ -1,0 +1,6 @@
+﻿services:
+  adfy.api:
+    image: adfy.api
+    build:
+      context: .
+      dockerfile: Adfy.Api/Dockerfile
