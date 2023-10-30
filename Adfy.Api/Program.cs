@@ -1,3 +1,4 @@
+using Adfy.Api.GraphQL;
 using Adfy.Application;
 using Adfy.Domain.Users;
 using Adfy.Infrastructure;
@@ -17,6 +18,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
+builder.Services.AddGraphQLServer().AddQueryType<Query>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -33,5 +36,7 @@ app.MapHealthChecks("/health");
 app.MapIdentityApi<User>();
 
 app.MapControllers();
+
+app.MapGraphQL();
 
 app.Run();
